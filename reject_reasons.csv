@@ -1,0 +1,7 @@
+reject_reason,rows
+duplicate_txn_id,875
+null_customer_id,508
+orphan_merchant_id,349
+invalid_currency,188
+non_positive_amount,186
+future_timestamp,167

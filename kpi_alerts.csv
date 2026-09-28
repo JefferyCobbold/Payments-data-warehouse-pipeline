@@ -1,0 +1,4 @@
+date,channel,failure_rate,baseline,z_score
+2026-08-14,mobile_money,0.254,0.051,24.256
+2026-08-15,mobile_money,0.264,0.067,18.530
+2026-08-16,mobile_money,0.246,0.079,14.560
