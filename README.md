@@ -54,7 +54,8 @@ Each bad row gets one reject reason and goes to a reject table. A reconciliation
 
 **4. Monitoring.** A binomial z-score on each channel's daily failure rate, against a pooled 14-day baseline, with guards for low volume and small changes. It flagged the built-in mobile-money outage on 14 to 16 August (failure rate about 25% against a baseline of 5 to 8%) and raised no false alarms on any other channel or day.
 
-![Daily failure rate by channel](reports/failure_rate_monitoring.png)
+<img width="1288" height="690" alt="failure_rate_monitoring" src="https://github.com/user-attachments/assets/46014421-f675-4931-b782-6061bb51062d" />
+
 
 **5. MapReduce-style aggregation.** A map, combine, and reduce implementation in pure Python computes per-merchant totals and matches SQL `GROUP BY` exactly for all 300 merchants.
 
